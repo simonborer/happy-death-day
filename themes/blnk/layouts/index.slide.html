@@ -1,0 +1,35 @@
+{{ define "stylesheets" }}
+{{ $style := resources.Get "sass/slides/main-slides.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+{{ end }}
+{{ define "main" }}
+<div style="position:absolute;font-size: 0;">Apologies if you're navigating this using a screen reader - you may randomly hear facts about cats. This is due to the aria-live region demo in the second half. If it's any consolation - I thought I was going crazy.</div>
+<div class="reveal">
+  <div class="slides">
+    <section>
+      <div class="hero hero--page" style="background-image:url('/images/{{ .Params.featured_image }}');background-position: bottom right;background-repeat: no-repeat;background-size: 20%;">
+        <h1 class="page-title" style="-webkit-text-stroke:2px black;">{{ .Title }}</h1>
+    </div>
+    </section>
+    {{ .Content }}
+  </div>
+</div>
+{{ end }}
+{{ define "scripts" }}
+<script type="text/javascript" src="/js/reveal.js"></script>
+<script>
+Reveal.initialize({
+  hash: true, 
+  history: true,
+  dependencies: [{ src: '/js/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+    {
+      src: '/js/reveal-a11y.js',
+      async: true,
+      condition: function() {
+        return !!document.body.classList;
+      }
+    }
+  ]
+});
+</script>
+{{ end }}

@@ -1,0 +1,12 @@
+name = "Blnk"
+license = "MIT"
+licenselink = "https://github.com/"
+description = "Starter."
+homepage = "https://github.com/"
+tags = ["blog"]
+features = ["blog"]
+min_version = 0.1
+
+[author]
+  name = ""
+  homepage = ""

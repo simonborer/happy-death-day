@@ -1,0 +1,27 @@
+{{ define "stylesheets" }}
+{{ $style := resources.Get "sass/slides/main-slides.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+{{ end }}
+{{ define "main" }}
+<div class="reveal">
+  <div class="slides">
+    {{ .Content }}
+  </div>
+</div>
+{{ end }}
+{{ define "scripts" }}
+<script type="text/javascript" src="/js/reveal.js"></script>
+<script>
+Reveal.initialize({
+  dependencies: [{ src: '/js/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+    {
+      src: '/js/reveal-a11y.js',
+      async: true,
+      condition: function() {
+        return !!document.body.classList;
+      }
+    }
+  ]
+});
+</script>
+{{ end }}

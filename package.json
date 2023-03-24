@@ -1,0 +1,30 @@
+{
+  "name": "Happy Death Day",
+  "version": "1.0.0",
+  "description": "Happy Death Day website",
+  "main": "index.js",
+  "scripts": {
+    "lang": "node utilities/turn.js",
+    "newDictionary": "spellchecker --generate-dictionary --no-gitignore -f"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonborer/happy-death-day.git"
+  },
+  "type": "module",
+  "author": "Simon Borer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simonborer/happy-death-day/issues"
+  },
+  "homepage": "https://github.com/simonborer/happy-death-day#readme",
+  "devDependencies": {
+    "fs-extra": "^6.0.1",
+    "http-server": "^14.1.1",
+    "spellchecker-cli": "^4.4.1",
+    "turndown": "^7.0.0"
+  },
+  "dependencies": {
+    "sanitize.css": "^13.0.0"
+  }
+}

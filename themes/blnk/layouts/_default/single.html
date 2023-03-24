@@ -1,0 +1,19 @@
+{{ define "main" }}
+	<main class="post">
+		<article>
+			<div class="hero hero--page" style="background-image:url('/images/{{ .Params.featured_image }}'), linear-gradient(.25turn, #d4e5d7, 40%, #fff2e2)">
+				<h1 class="page-title">{{ .Title }}</h1>
+			</div>
+			<div class="grid-container">
+				<div class="grid-x">
+					<div class="cell medium-6 medium-offset-3 small-12">{{ .Content }}</div>
+									
+				</div>
+			</div>
+		</article>
+	</main>
+{{ end }}
+{{ define "scripts" }}
+<script src="{{ .Site.BaseURL }}/js/prism.js"></script>
+<script src="{{ .Site.BaseURL }}/js/instantpage-5.1.0.js" type="module" defer></script>
+{{ end }}
