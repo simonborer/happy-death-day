@@ -24,7 +24,7 @@ summary: "Today we'll define web accessibility, look at the legislation around i
     <hr>
     <section class="col" id="thm">
         <figure>
-            <img width="1600" height="1200" src="/images/Toronto_Homeless_Memorial.jpg" alt="The names on the Toronto Homeless Memorial">
+            <img width="1600" src="/images/Toronto_Homeless_Memorial.jpg" alt="The names on the Toronto Homeless Memorial">
             <figcaption>Loretta Lime, via Wikimedia Commons</figcaption>
         </figure>
         <h2>Toronto Homeless Memorial</h2>
@@ -33,6 +33,7 @@ summary: "Today we'll define web accessibility, look at the legislation around i
         <p>You can donate to the Memorial through the Church, but from what I can tell, it's appreciated as much or more if you simply attend in person or through their <a href="https://www.facebook.com/holytrinityTO/live/" target="_blank" rel="noopener noreferrer">facebook live stream<span class="show-for-sr"> Opens in a new window</span></a>.</p>
         <p>The Memorial is currently lead by Rev. Pamela Trondson. She is a really lovely, approachable person. She first lead the service in December, 2021. That month, 34 names were added. I'm sure she'll answer any questions you have about the Memorial if you <a href="https://holytrinity.to/about/" target="_blank" rel="noopener noreferrer">contact her through the Church<span class="show-for-sr"> Opens in a new window</span></a>.</p>
     </section>
+    <div class="body-spacer--small"></div>
     <hr>
     <section class="col" id="advice">
         <h2>Advice</h2>
