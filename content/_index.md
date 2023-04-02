@@ -71,7 +71,7 @@ summary: "Today we'll define web accessibility, look at the legislation around i
             </div>
         </div>
         <p>Okay, that's really it, but this one was fun:</p>
-        <img width="700" src="/images/no_excuse.jpeg" alt="Being Dead is No Excuse: The Official Southern Ladies Guide to Hosting the Perfect Funeral." style="max-width: 20rem; margin:0 auto;display: block;">
+        <img width="700" src="/images/no_excuse.jpeg" alt="Being Dead is No Excuse: The Official Southern Ladies Guide to Hosting the Perfect Funeral." style="max-width: 16rem; margin:0 auto;display: block;">
     </section>
     <hr>
     <section class="col" id="failed">
