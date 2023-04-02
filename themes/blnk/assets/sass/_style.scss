@@ -16,10 +16,17 @@ $breakpoint: 40rem;
 html,
 body {
     font-size: 20px;
-    background: $bg-colour;
-    color: $text-default;
+    background: #220a00;
+    color: $bg-colour;
 }
-
+@media (prefers-color-scheme: light) {
+  html,
+    body {
+        font-size: 20px;
+        background: $bg-colour;
+        color: $text-default;
+    }
+}
 kbd {
     background: #efefef;
     border: 1px solid;
@@ -124,13 +131,17 @@ hr {
     margin: 2.25rem auto;
     border-top: 0;
     border-right: 0;
-    border-bottom: 1px solid $text-default;
+    border-bottom: .75rem solid $bg-colour;
     border-left: 0;
     box-sizing: content-box;
     height: 0;
     overflow: visible;
 }
-
+@media (prefers-color-scheme: light) {
+  hr {
+        border-bottom: 1px solid $text-default;
+    }
+}
 h4 {
     font-size: 1.2rem;
 }
@@ -166,15 +177,19 @@ td {
 }
 
 a {
-    color: $text-link;
+    color: $bg-colour;
     overflow-wrap: break-word;
     text-decoration: underline;
     text-underline-offset: 2px;
     &:hover {
-        color: lighten($text-link, 15%);
+        color: lighten($bg-colour, 15%);
     }
 }
-
+@media (prefers-color-scheme: light) {
+  a {
+        color: $text-default;
+    }
+}
 dt {
   font-weight: bold;
   margin-top: .5rem;
@@ -954,6 +969,7 @@ span[role=img][aria-label]:hover::after {
 
 .toc {
     margin-top: 2rem;
+    margin-bottom: 6rem;
     & > li {
         list-style: none;
         margin-top: 1rem;
