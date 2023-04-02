@@ -24,7 +24,7 @@ summary: "Today we'll define web accessibility, look at the legislation around i
     <hr>
     <section class="col" id="thm">
         <figure>
-            <img src="/images/Toronto_Homeless_Memorial.jpg" alt="The names on the Toronto Homeless Memorial">
+            <img width="1600" height="1200" src="/images/Toronto_Homeless_Memorial.jpg" alt="The names on the Toronto Homeless Memorial">
             <figcaption>Loretta Lime, via Wikimedia Commons</figcaption>
         </figure>
         <h2>Toronto Homeless Memorial</h2>
@@ -64,13 +64,13 @@ summary: "Today we'll define web accessibility, look at the legislation around i
     <section class="col" id="books">
         <h2>Books I read on the topic that I thought were really good</h2>
         <div style="display:flex">
-            <img src="/images/good-grief.jpeg" alt="Cover of 'Good Grief'">
+            <img width="270" height="400" src="/images/good-grief.jpeg" alt="Cover of 'Good Grief'">
             <div style="margin-left: 2rem;">
                 <a href="https://www.torontopubliclibrary.ca/search.jsp?N=4288410530" target="_blank" rel="noopener noreferrer">Good Grief, I have to plan a funeral<span class="show-for-sr"> Opens in a new window</span></a>, by Judy&nbsp;Smith&nbsp;Ross, with illustrations by Beverly&nbsp;Smith.
             </div>
         </div>
         <p>Okay, that's really it, but this one was fun:</p>
-        <img src="/images/no_excuse.jpeg" alt="Being Dead is No Excuse: The Official Southern Ladies Guide to Hosting the Perfect Funeral." style="max-width: 100%;">
+        <img width="700" height="950" src="/images/no_excuse.jpeg" alt="Being Dead is No Excuse: The Official Southern Ladies Guide to Hosting the Perfect Funeral." style="max-width: 100%;">
     </section>
     <hr>
     <section class="col" id="failed">
