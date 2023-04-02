@@ -235,3 +235,14 @@ section[id]>h4, section[id]>h5 {
         margin-bottom: 0;
     }
 }
+
+.two-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width: 680px) {
+    .two-up {
+        flex-direction: row;
+    }
+}

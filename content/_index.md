@@ -64,14 +64,14 @@ summary: "Today we'll define web accessibility, look at the legislation around i
     <hr>
     <section class="col" id="books">
         <h2>Books I read on the topic that I thought were really good</h2>
-        <div style="display:flex">
-            <img width="270" height="400" src="/images/good-grief.jpeg" alt="Cover of 'Good Grief'">
+        <div class="two-up">
+            <img width="270" src="/images/good-grief.jpeg" alt="Cover of 'Good Grief'">
             <div style="margin-left: 2rem;">
                 <a href="https://www.torontopubliclibrary.ca/search.jsp?N=4288410530" target="_blank" rel="noopener noreferrer">Good Grief, I have to plan a funeral<span class="show-for-sr"> Opens in a new window</span></a>, by Judy&nbsp;Smith&nbsp;Ross, with illustrations by Beverly&nbsp;Smith.
             </div>
         </div>
         <p>Okay, that's really it, but this one was fun:</p>
-        <img width="700" height="950" src="/images/no_excuse.jpeg" alt="Being Dead is No Excuse: The Official Southern Ladies Guide to Hosting the Perfect Funeral." style="max-width: 100%;">
+        <img width="700" src="/images/no_excuse.jpeg" alt="Being Dead is No Excuse: The Official Southern Ladies Guide to Hosting the Perfect Funeral." style="max-width: 20rem; margin:0 auto;display: block;">
     </section>
     <hr>
     <section class="col" id="failed">
