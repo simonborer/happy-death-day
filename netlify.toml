@@ -1,6 +1,5 @@
 [build]
 publish = "public"
-command = "hugo --gc --minify"
 
 [context.production.environment]
 HUGO_VERSION = "0.111.3"
@@ -35,6 +34,3 @@ HUGO_ENABLEGITINFO = "true"
       vibrate=(),
       vr=()
   '''
-#   	Content-Security-Policy = "default-src self https://securityqa.ca;frame-src https://www.youtube-nocookie.com;img-src self https://securityqa.ca https://*.cloudfront.net unsafe-inline; media-src https://*.cloudfront.net;script-src"
-  # Permissions-Policy = "payment=(),usb=(),fullscreen=(self),geolocation=(), camera=(),accelerometer=(self "https://www.youtube-nocookie.com" "https://www.youtube.com"); autoplay=(self "https://www.youtube-nocookie.com" "https://www.youtube.com"); clipboard-write=(self "https://www.youtube-nocookie.com" "https://www.youtube.com"); encrypted-media=(self "https://www.youtube-nocookie.com" "https://www.youtube.com" "https://*.spotify.com"); gyroscope=(self "https://www.youtube-nocookie.com" "https://www.youtube.com"); picture-in-picture=(self "https://www.youtube-nocookie.com" "https://www.youtube.com")"
-
