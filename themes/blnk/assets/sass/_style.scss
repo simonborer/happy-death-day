@@ -173,8 +173,8 @@ ul ul ul li {
 }
 
 section[id] {
-    margin-top: -10rem;
-    padding-top: 10rem;
+    margin-top: -4rem;
+    padding-top: 4rem;
 }
 section[id]>h2 {
     margin-top: 4rem;
@@ -244,5 +244,8 @@ section[id]>h4, section[id]>h5 {
 @media (min-width: 680px) {
     .two-up {
         flex-direction: row;
+        &__text {
+            margin-left: 2rem;
+        }
     }
 }
