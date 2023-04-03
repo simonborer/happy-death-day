@@ -88,7 +88,7 @@ summary: "Today we'll define web accessibility, look at the legislation around i
         <p><a href="https://en.wikipedia.org/wiki/Forever_Knight" target="_blank" rel="noopener noreferrer">Forever Knight<span class="show-for-sr"> Opens in a new window</span></a> (1992-1996) and <a href="https://en.wikipedia.org/wiki/Blood_Ties_(TV_series)" target="_blank" rel="noopener noreferrer">Blood Ties<span class="show-for-sr"> Opens in a new window</span></a> (2007-2008). Weird, right?</p>
         <h3>AC/DC: Bisexual band or <em>the most</em> bisexual band?</h3>
         <h3>Sundowning, pre-industrial sleep patterns and their impact on "witch crazes".</h3>
-        <p>I couldn't prove any of this when I took "Witchcraft" at U of T, and I certainly can't prove it now.</p>
+        <p>I couldn't prove any of this when I took "RLG337 Witchcraft" at U of T, and I certainly can't prove it now.</p>
         <h3>The FBI's Highway Serial Killings Initiative</h3>
         <p>Truck driving has been characterized as the ideal profession for a serial killer, with the FBI going so far as to <a href="https://archives.fbi.gov/archives/news/stories/2009/april/highwayserial_040609" target="_blank" rel="noopener noreferrer">form a task force specifically to track them<span class="show-for-sr"> Opens in a new window</span></a>. Are they all "lone wolves"? Or is there an underground society of... nope, I don't want to do true crime. Just nah.</p>
         <h3>Forgotten relics of gritty Canadian youth programming in the mid-90s</h3>
