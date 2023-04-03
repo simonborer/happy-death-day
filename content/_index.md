@@ -45,20 +45,20 @@ summary: "Today we'll define web accessibility, look at the legislation around i
         </ul>
         <h3 id="other-things">Other things you might do</h3>
         <ul>
-            <li>Check in with the funeral director/officiant so you know
+            <li>Check in with the funeral director/officiant so you know&hellip;
                 <ul>
                     <li>where/when to go, and </li>
                     <li>if someone else will also be speaking.</li>
                     <li>(If so, you might want to check in with them, too.)</li>
                 </ul>
             </li>          
-            <li>Do a reading instead (poetry, lyrics, scripture, whatever floats your boat)</li>
-            <li>Ask someone to read it over ahead of time</li>
+            <li>Do a reading instead (poetry, lyrics, scripture, whatever floats your boat).</li>
+            <li>Decline - if you don’t have the resources to do this, it is absolutely okay to say so ahead of time.</li>
+            <li>Ask someone to read it over ahead of time.</li>
             <li>Ask someone to be your support if you end up struggling (check in with someone ahead of time and say, “if I lose my shit, you’ll come get me, right?”)</li>
-            <li>Gently acknowledge how everyone is doing</li>
+            <li>Gently acknowledge how everyone is doing.</li>
             <li>Maybe tell a joke (easiest laughs you’ll ever get?)</li>
-            <li>decline - if you don’t have the resources to do this, it is absolutely okay to say so ahead of time</li>
-            <li>completely fucking bail at the last second</li>
+            <li>Completely fucking bail at the last second.</li>
         </ul>
     </section>
     <hr>
