@@ -4,7 +4,8 @@ date: 2022-06-21T08:47:11+01:00
 featured_image: grave-raven.svg
 summary: "Today we'll define web accessibility, look at the legislation around it, and talk about strategies for incorporating accessibility in a team strategy, both retroactively (remediation) and moving forward (KPIs). In the second half, we'll focus on accessibility in code, and the special challenges your team is tackling."
 ---
-<header style="display:flex;justify-content:center;margin-top: 10vh;">
+<header class="col header">
+    <img width="960" src="/images/headstone.jpg" alt="My grandparents' headstone in Rock Chapel Cemetery, with the name 'Borer' prominently featured, along with an engraving of our family farm.">
     <h1>{{< param title >}}</h1>
 </header>
 <main>
@@ -79,13 +80,20 @@ summary: "Today we'll define web accessibility, look at the legislation around i
         <p>I spent months figuring out what I wanted to talk about. I had a lot of bad ideas for lectures, and, since I think failure is interesting, I thought I'd put a few of them here:</p>
         <h3>This city hates you</h3>
         <p>Let's take over a small city. Cambridge, Ontario, pop 140k, has mayoral elections decided by <2000 votes. This is roughly the capacity of the Danforth City Music Hall. Think of how few people we'd need to wrangle to be able to sway the fortunes of any city or town that's smaller than that.</p>
+        <img src="/images/perth.webp" alt="Perth, ON">
         <p>Typically, DIY shipping container homes Ontario cost around <a href="https://www.containeraddict.com/building-shipping-container-homes-ontario-canada/#:~:text=Typically%2C%20DIY%20shipping%20container%20homes,%24200%20%E2%80%93%20%24300%20per%20sq%20ft." target="_blank" rel="noopener noreferrer">$130 – $175 per sq ft<span class="show-for-sr"> Opens in a new window</span></a>. Those of us who work remotely can do so (possibly <a href="https://www.wired.com/story/this-man-built-his-own-isp-26-million-dollar-funds/" target="_blank" rel="noopener noreferrer">building our own ISP<span class="show-for-sr"> Opens in a new window</span></a>), the rest of us will grow high-margin crops, and produce value-added goods - black garlic cream cheese, lavender ice cream, pickled microgreens, just off the top of my head. But you know what they say, when the gold rush starts, sell shovels, so we should be oh fuck I hate this I hate this so much.</p>
         <h3>Linda Ronstadt is a fucking Queen who deserves a moment oh wait I just heard her on The Last of Us I guess it's happening</h3>
         <p>Go listen to <a href="https://www.discogs.com/release/1518337-Linda-Ronstadt-Canciones-De-Mi-Padre" target="_blank" rel="noopener noreferrer">Canciones de Mi Padre<span class="show-for-sr"> Opens in a new window</span></a>, it's a damn masterpiece.</p>
+        <img src="/images/canciones.jpg" alt="Album cover for Canciones de Mi Padre">
         <h3>The 20hz messageboard / Stillepost</h3>
         <p>...and other <a href="https://medium.com/@WestEndMatt/id-like-to-tell-you-about-secret-arcade-20hz-and-stillepost-928cd111efbe" target="_blank" rel="noopener noreferrer">Toronto Music Scene things<span class="show-for-sr"> Opens in a new window</span></a> facebook killed (posters, zines, show photography, small blogs, etc) (possibility of shift towards discord / mastodon?)</p>
+        <figure>
+        <img src="/images/stillepost.webp" alt="Screenshot of Stillepost.ca">
+        <figcaption>Thanks <a href="https://archive.org/web/" target="_blank" rel="noopener noreferrer">WayBack Machine<span class="show-for-sr"> Opens in a new window</span></a>!</figcaption>
+        </figure>
         <h3>Defang the Police: TWO UNRELATED tv shows where ENTIRE PREMISE is that the Toronto Police team up with a fucking vampire.</h3>
         <p><a href="https://en.wikipedia.org/wiki/Forever_Knight" target="_blank" rel="noopener noreferrer">Forever Knight<span class="show-for-sr"> Opens in a new window</span></a> (1992-1996) and <a href="https://en.wikipedia.org/wiki/Blood_Ties_(TV_series)" target="_blank" rel="noopener noreferrer">Blood Ties<span class="show-for-sr"> Opens in a new window</span></a> (2007-2008). Weird, right?</p>
+        <img src="/images/Forever_Knight.png" alt="Opening credits of Forever Knight, featuring the CN Tower">
         <h3>AC/DC: Bisexual band or <em>the most</em> bisexual band?</h3>
         <h3>Sundowning, pre-industrial sleep patterns and their impact on "witch crazes".</h3>
         <p>I couldn't prove any of this when I took "RLG337 Witchcraft" at U of T, and I certainly can't prove it now.</p>

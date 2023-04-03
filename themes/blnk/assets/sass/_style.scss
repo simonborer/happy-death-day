@@ -137,7 +137,7 @@ figure {
         width: 100%;
     }
     & img + figcaption {
-        margin-top: 0;
+        margin-top: .5rem;
         margin-bottom: 1rem;
     }
 }
@@ -248,4 +248,25 @@ section[id]>h4, section[id]>h5 {
             margin-left: 2rem;
         }
     }
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    & > img {
+        max-width: 100%;
+        max-width: calc(100% + 4ch);
+        border-bottom: .75rem solid $bg-colour;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+  .header > img {
+        border-bottom: 1px solid $text-default;
+    }
+}
+
+main .col img {
+    max-width: 100%;
 }
